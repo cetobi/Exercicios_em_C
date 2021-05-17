@@ -39,10 +39,6 @@ exibirTBL(){
     int n,m,l=0;
     printf("\n\n");
 
-    if(mtz[n][m]>700){
-
-    }
-    else{
 
         for(i=0;i<4;i++){
         printf("\t\t%s",produto[i]);
@@ -59,7 +55,6 @@ exibirTBL(){
                 printf("\t%-5.2f\t",mtz[i][j]);
             }
         }
-    }
     printf("\n\n");
     system("pause");
 }
